@@ -1,0 +1,26 @@
+﻿# TapBridge local TLS/CA identity — never commit
+/windows-agent/certs/
+
+# Rust / Cargo generated output
+/windows-agent/target/
+
+# Flutter / Dart generated output
+/mobile/.dart_tool/
+/mobile/build/
+/mobile/.flutter-plugins
+/mobile/.flutter-plugins-dependencies
+/mobile/.packages
+
+# Android local-machine and generated files
+/mobile/android/.gradle/
+/mobile/android/local.properties
+/mobile/android/app/build/
+
+# Local IDE / signing / environment secrets
+.idea/
+*.iml
+.env
+.env.*
+*.jks
+*.keystore
+**/key.properties

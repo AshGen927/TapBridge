@@ -1,0 +1,5 @@
+# Local TapBridge TLS/CA identity — never commit
+/certs/
+
+# Rust/Cargo build output
+/target/

@@ -1,0 +1,5 @@
+package com.ashgen.tapbridge.mobile
+
+import io.flutter.embedding.android.FlutterFragmentActivity
+
+class MainActivity : FlutterFragmentActivity()
